@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(234, 221, 202);
+}
+div {
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 12px;
+}
+div.x {
+    border: solid 2px;
+}
+div.y {
+    border: dashed 2px;
+}
+div.z { color: blueviolet;
+    border-style: groove ;}
+    .m {border:dashed red ;}
