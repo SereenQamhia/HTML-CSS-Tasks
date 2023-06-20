@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <style>
+        div{
+            border: 1px dashed;
+             width: fit-content;
+        }
+        p{
+            margin:0;
+            width: 80px;
+            height: 80px;
+            display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>position static</h2>
+    <div>
+    <p style="background-color:red;">One</p>
+    <p style="background-color:green;">Two</p>
+    <p style="background-color:red;">Three</p>
+    <p style="background-color:red;">Four</p>
+    </div>
+    <h2>position relative</h2>
+    <div style="position: relative;">
+    <p style="background-color:red;">One</p>
+    <p style="background-color:green; position:relative; top: 18px; left: 20px; ">Two</p>
+    <p style="background-color:red;">Three</p>
+    <p style="background-color:red;">Four</p>
+    </div>
+    <h2>position absolute</h2>
+    <div style="position: relative;">
+    <p style="background-color:red;">One</p>
+    <p style="background-color:green; position:absolute; left: 10px; top: 10px;">Two</p>
+    <p style="background-color:red;">Three</p>
+    <p style="background-color:red;">Four</p>
+    </div>
+</body>
+</html>
